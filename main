@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NDOWeatherのサイト</title>
+</head>
+<body>
+<h1>NDOWeatherのサイト</h1>
+<p>何にもないね</p>
+</body>
+<style type="text/css">
+h1 {
+    font-size: 30px;
+    background-color: #00af3a;
+    color: #ffffff;
+    padding: 8px 14px;
+}
+p{
+    border: 2px solid #F3F3F3;
+    padding: 14px 14px 14px 32px;
+}
+</style>
+</html>
