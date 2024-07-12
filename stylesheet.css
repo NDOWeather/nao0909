@@ -95,10 +95,10 @@ header {
 
 .header-right a {
   line-height: 60px;
-  padding: 0 25px;
+  padding: 0 15px;
   color: white;
   display: block;
-  float: right;
+  float: light;
   transition: all 0.5s;
 }
 
