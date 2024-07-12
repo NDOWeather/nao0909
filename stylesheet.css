@@ -59,7 +59,7 @@ a {
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
-  text-align: light;
+  text-align: right;
 }
 
 .btn:hover {
@@ -98,7 +98,7 @@ header {
   padding: 0 25px;
   color: white;
   display: block;
-  float: left;
+  float: right;
   transition: all 0.5s;
 }
 
