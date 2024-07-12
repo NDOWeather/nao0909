@@ -41,6 +41,14 @@ a {
   text-align: center;
 }
 
+.btn-wrapper2 {
+  text-align: right;
+}
+
+.btn-wrapper3 {
+  text-align: left;
+}
+
 .btn-wrapper p {
   margin-bottom: 20px;
 }
