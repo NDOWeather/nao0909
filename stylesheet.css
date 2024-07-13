@@ -89,7 +89,7 @@ a {
 }
 
 .fa {
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 header {
@@ -125,7 +125,7 @@ header {
 }
 
 .header-right a:hover {
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255,255,255,0.2);
 }
 
 .lesson-wrapper {
