@@ -24,6 +24,11 @@ a {
   font-size: 26px;
 }
 
+.fa-x-twitter {
+    color: #ffffff;
+    font-size: 24px;
+}
+
 .top-wrapper {
   padding: 180px 0 180px 0;
   background-image: url(top.jpg);
