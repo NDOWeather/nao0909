@@ -116,6 +116,15 @@ header {
   float: left;
 }
 
+.header-left a {
+  line-height: 60px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
 .header-right {
   float: right;
   margin-right: -25px;
