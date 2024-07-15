@@ -118,7 +118,8 @@ header {
 
 .header-left a {
   line-height: 60px;
-  padding: 0 13px;
+  padding-left: 13px;
+  padding-top: 2px
   font-size: 28px;
   font-family: "Bahnschrift Light" ;
   color: white;
