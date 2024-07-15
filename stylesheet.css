@@ -30,12 +30,12 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 340px 0;
+  padding: 180px 0 330px 0;
   background-image: url(top.jpg);
   background-size: cover;
   color: white;
   text-align: right;
-  position: relative; /* 相対位置指定 */
+  position: relative;
 }
 
 .top-wrapper h1 {
@@ -118,12 +118,10 @@ header {
 
 .header-left a {
   line-height: 60px;
-  padding: 0 14px;
-  padding-top: 1px
-  font-size: 30px;
+  padding: 0 13px;
+  font-size: 28px;
   font-family: "Bahnschrift Light" ;
   color: white;
-  display: block;
   float: left;
   transition: all 0.5s;
 }
