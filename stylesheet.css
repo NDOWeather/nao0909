@@ -82,6 +82,13 @@ a {
   margin-left: 2px; /* ここで左に10pxの余白を追加 */
 }
 
+#download-section {
+  text-align: center;
+}
+#download-section h2 {
+  text-align: left;
+}
+
 .btn {
   padding: 8px 24px;
   color: white;
