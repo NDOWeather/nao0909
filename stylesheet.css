@@ -59,7 +59,8 @@ a {
 
 .btn-wrapper {
   text-align: center;
-   float: center;
+  justify-content: center;
+  float: center;
 }
 
 .btn-wrapper2 {
@@ -78,13 +79,9 @@ a {
   background-color: #239b76;
 }
 
-.twitter-timeline {
-  text-align: center;
-}
-
 .twitter {
   background-color: #DA1725;
-  margin-left: 2px; /* ここで左に10pxの余白を追加 */
+  margin-left: 2px;
 }
 
 #download-section {
