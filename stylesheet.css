@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: "Bahnschrift Light", "Koruri", sans-serif;
+  font-family: "Bahnschrift Light", "Noto Sans JP", sans-serif;
 }
 
 a {
@@ -132,7 +133,7 @@ header {
 .header-left a {
   line-height: 60px;
   padding-left: 12px;
-  font-size: 26px;
+  font-size: 20px;
   font-family: "Bahnschrift Light" ;
   color: white;
   float: left;
