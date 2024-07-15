@@ -77,6 +77,10 @@ a {
   background-color: #239b76;
 }
 
+.twitter-timeline {
+  text-align: center;
+}
+
 .twitter {
   background-color: #DA1725;
   margin-left: 2px; /* ここで左に10pxの余白を追加 */
@@ -85,6 +89,7 @@ a {
 #download-section {
   text-align: center;
 }
+
 #download-section h2 {
   text-align: left;
 }
