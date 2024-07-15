@@ -79,6 +79,7 @@ a {
 
 .twitter {
   background-color: #DA1725;
+  margin-left: 2px; /* ここで左に10pxの余白を追加 */
 }
 
 .btn {
