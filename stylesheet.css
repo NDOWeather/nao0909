@@ -259,7 +259,7 @@ footer {
   }
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 750px) {
   .header-right {
     display: none;
   }
