@@ -19,13 +19,6 @@ a {
   margin: 0 auto;
 }
 
-.container2 {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-  font-size: 26px;
-}
-
 .fa-x-twitter {
     color: #ffffff;
     font-size: 24px;
@@ -108,6 +101,11 @@ a {
   margin-right: 3px;
 }
 
+.logo {
+  width: 55px;
+  margin-top: 3px;
+}
+
 header {
   height: 60px;
   width: 100%;
@@ -116,12 +114,6 @@ header {
   top: 0;
   z-index: 10;
 }
-
-.logo {
-  width: 55px;
-  margin-top: 3px;
-}
-
 .header-left {
   float: left;
 }
@@ -154,15 +146,6 @@ header {
   background-color: rgba(255,255,255,0.2);
 }
 
-.lesson-wrapper {
-  height: 1000px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
@@ -171,6 +154,15 @@ header {
 
 .heading h2 {
   font-weight: normal;
+}
+
+.lesson-wrapper {
+  height: 1000px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
 }
 
 .lesson {
@@ -195,10 +187,6 @@ header {
   margin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
 }
 
 .message-wrapper {
