@@ -70,22 +70,8 @@ a {
   margin-left: 2px;
 }
 
-#download-section {
-  text-align: center;
-}
-
-#download-section h1 {
-  text-align: left;
-  font-size: 32px
-}
-
-#download-section h2 {
-  text-align: left;
-  font-size: 40px
-}
-
 .btn {
-  padding: 8px 24px;
+  padding: 8px 104px;
   color: white;
   display: inline-block;
   opacity: 0.9;
@@ -149,7 +135,7 @@ header {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: #323232;
 }
 
 .heading h2 {
@@ -206,6 +192,20 @@ header {
   position: relative;
   top: 7px;
   box-shadow: none;
+}
+
+#download-section {
+  text-align: center;
+}
+
+#download-section h1 {
+  text-align: left;
+  font-size: 32px
+}
+
+#download-section h2 {
+  text-align: left;
+  font-size: 40px
 }
 
 footer img {
