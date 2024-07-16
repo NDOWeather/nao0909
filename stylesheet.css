@@ -71,11 +71,11 @@ a {
 }
 
 .btn {
-  padding: 8px 104px;
+  padding: 8px 20px;
   color: white;
   display: inline-block;
   opacity: 0.9;
-  border-radius: 40px;
+  border-radius: 100px;
   text-align: right;
 }
 
