@@ -215,8 +215,8 @@ header {
 }
 
 .border {
-  border-bottom: 3px solid #ff7373;
-  padding-bottom: 20px;
+  border-bottom: 2px solid #ff7373;
+  padding-bottom: 100px;
   text-align: center;
 }
 
@@ -246,7 +246,7 @@ footer {
   clear: left;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 800px) {
   .lesson {
     width: 50%;
     margin-bottom: 50px;
