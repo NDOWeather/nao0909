@@ -74,7 +74,7 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.9;
-  border-radius: 2px;
+  border-radius: 7px;
   text-align: right;
 }
 
@@ -283,6 +283,16 @@ footer {
 
   .top-wrapper p {
     font-size: 14px;
+  }
+
+  #download-section h1 {
+    text-align: left;
+    font-size: 24px
+  }
+
+  #download-section h2 {
+    text-align: left;
+    font-size: 32px
   }
 
   .lesson {
