@@ -209,7 +209,7 @@ header {
   font-size: 32px
 }
 
-#download-section h2 {
+.download-section h2 {
   text-align: left;
   font-size: 40px
   width: 10px;
