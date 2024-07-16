@@ -209,9 +209,9 @@ header {
   font-size: 32px
 }
 
-.download-section h2 {
+#download-section h2 {
   text-align: left;
-  font-size: 40px
+  font-size: 40px;
   width: 10px;
   border-bottom: solid 2px #ff7373;
   padding-bottom: 10px;
