@@ -67,7 +67,6 @@ a {
 
 .twitter {
   background-color: #DA1725;
-  margin-left: 2px;
 }
 
 .btn {
@@ -75,7 +74,7 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.9;
-  border-radius: 100px;
+  border-radius: 2px;
   text-align: right;
 }
 
