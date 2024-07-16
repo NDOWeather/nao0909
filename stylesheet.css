@@ -214,6 +214,12 @@ header {
   font-size: 40px
 }
 
+.border {
+  border-bottom: 3px solid #ff7373;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 footer img {
   width: 125px;
 }
