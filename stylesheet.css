@@ -75,7 +75,7 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.9;
-  border-radius: 7px;
+  border-radius: 10px;
   text-align: right;
 }
 
@@ -184,7 +184,7 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 13px;
-  color: #b3aeb5;
+  color: #323232;
 }
 
 .message-wrapper {
@@ -197,7 +197,7 @@ header {
   padding: 15px 40px;
   background-color: #5dca88;
   cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
+  box-shadow: 0px 5px #1a7940;
 }
 
 .message:active {
@@ -224,7 +224,7 @@ header {
 
 #download-section p {
   text-align: left;
-  font-size: 10.5px;
+  font-size: 16px;
 }
 
 .border {
