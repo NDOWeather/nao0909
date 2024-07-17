@@ -90,6 +90,7 @@ a {
 
 .picture {
   width: 500px;
+  float: left;
 }
 
 header {
