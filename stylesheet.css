@@ -28,6 +28,7 @@ a {
   padding: 180px 0 330px 0;
   background-image: url(top.jpg);
   background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
   position: relative;
