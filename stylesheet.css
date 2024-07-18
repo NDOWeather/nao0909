@@ -337,4 +337,10 @@ footer {
   float: center;
   margin-bottom: 25px;
   }
+
+  .picture-left {
+  width: 300px;
+  float: center;
+  margin-bottom: 25px;
+  }
 }
