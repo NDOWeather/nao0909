@@ -96,6 +96,7 @@ a {
 .picture-right {
   width: 400px;
   float: right;
+  margin-bottom: 25px;
 }
 
 header {
