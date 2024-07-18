@@ -89,15 +89,16 @@ a {
 }
 
 .picture {
-  width: 420px;
-  float: left;
+  width: 48%;
   margin-bottom: 25px;
+  margin-right: 2%;
+  float: left;
 }
 
 .picture-right {
-  width: 420px;
-  float: right;
+  width: 48%;
   margin-bottom: 25px;
+  float: left;
 }
 
 header {
@@ -259,7 +260,7 @@ footer {
 }
 
 .clear {
-  clear: left;
+  clear: both;
 }
 
 @media all and (max-width: 800px) {
@@ -333,14 +334,13 @@ footer {
   }
   
   .picture {
-  width: 300px;
-  float: left;
-  margin-bottom: 25px;
+    width: 100%;
+    margin-right: 0;
+    float: none;
   }
 
   .picture-right {
-  width: 300px;
-  float: left;
-  margin-bottom: 25px;
+    width: 100%;
+    float: none;
   }
 }
