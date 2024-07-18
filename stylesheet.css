@@ -332,4 +332,9 @@ footer {
     height: 1700px;
   }
   
+  .picture {
+  width: 300px;
+  float: center;
+  margin-bottom: 25px;
+  }
 }
