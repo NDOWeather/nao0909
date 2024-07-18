@@ -334,13 +334,13 @@ footer {
   
   .picture {
   width: 300px;
-  float: center;
+  float: left;
   margin-bottom: 25px;
   }
 
   .picture-right {
   width: 300px;
-  float: center;
+  float: left;
   margin-bottom: 25px;
   }
 }
