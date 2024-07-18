@@ -91,6 +91,7 @@ a {
 .picture {
   width: 400px;
   float: left;
+  margin-bottom: 25px;
 }
 
 .picture-right {
