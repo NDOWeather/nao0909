@@ -154,6 +154,8 @@ header {
 
 .heading-border {
    font-size: 20px;
+   padding-top: 8px;
+   padding-bottom: 8px;
    border: 5px solid #ff7373;
 }
 
