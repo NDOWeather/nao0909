@@ -165,7 +165,7 @@ header {
 }
 
 .picture-background {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
@@ -334,7 +334,7 @@ footer {
   }
 
   .lesson-wrapper {
-    height: 1700px;
+    height: 1400px;
   }
   
   .picture {
