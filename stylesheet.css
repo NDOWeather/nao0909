@@ -36,7 +36,7 @@ a {
 
 .top-wrapper h1 {
   opacity: 0.9;
-  font-size: 55px;
+  font-size: 54px;
   letter-spacing: 0px;
 }
 
@@ -75,11 +75,11 @@ a {
 }
 
 .btn {
-  padding: 6px 20px;
+  padding: 6px 22px;
   color: white;
   display: inline-block;
   opacity: 0.9;
-  border-radius: 10px;
+  border-radius: 11px;
   text-align: right;
 }
 
@@ -120,7 +120,7 @@ header {
 .header-left a {
   line-height: 60px;
   padding-left: 12px;
-  font-size: 26px;
+  font-size: 27px;
   color: white;
   float: left;
   transition: all 0.5s;
@@ -165,7 +165,7 @@ header {
 }
 
 .picture-background {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
@@ -247,7 +247,7 @@ footer img {
 
 footer p {
   color: #6d6b6e;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 footer {
@@ -258,7 +258,7 @@ footer {
 .menu-icon {
   color: white;
   float: right;
-  font-size: 25px;
+  font-size: 26px;
   padding: 21px 0;
   display: none;
 }
