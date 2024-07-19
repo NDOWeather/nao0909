@@ -55,7 +55,7 @@ a {
 .btn-wrapper {
   text-align: center;
   justify-content: center;
-  float: center;
+  float: left;
 }
 
 .btn-wrapper p {
