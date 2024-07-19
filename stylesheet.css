@@ -113,6 +113,7 @@ header {
   top: 0;
   z-index: 10;
 }
+
 .header-left {
   float: left;
 }
@@ -151,7 +152,7 @@ header {
   color: #323232;
 }
 
-.heading p {
+.heading-border {
    margin: 12px  0;
    padding: 12px;
    border-top:  4px solid #ff7373;
