@@ -153,12 +153,13 @@ header {
 }
 
 .heading-border {
+   font-size: 27px;
    margin: 12px  0;
    padding: 12px;
-   border-top:  6px solid #ff7373;
+   border-top:  8px solid #ff7373;
    border-right: 1px dotted  #ff7373;
    border-bottom: 1px dotted #ff7373;
-   border-left: 12px solid #ff7373;
+   border-left: 8px solid #ff7373;
 }
 
 .heading h2 {
