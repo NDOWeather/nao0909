@@ -122,7 +122,7 @@ header {
 .header-left a {
   line-height: 60px;
   padding-left: 12px;
-  font: Outfit;
+  font-family: "Outfit";
   font-size: 27px;
   color: white;
   float: left;
