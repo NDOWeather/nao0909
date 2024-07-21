@@ -254,6 +254,14 @@ header {
   font-size: 20px
 }
 
+#download-section2 h2 {
+  text-align: left;
+  font-size: 32px;
+  border-bottom: solid 2px #ff7373;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 .border {
   border-bottom: 2px solid #ff7373;
   padding-bottom: 100px;
