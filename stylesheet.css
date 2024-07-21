@@ -165,6 +165,10 @@ header {
   font-weight: normal;
 }
 
+.heading h3 {
+  text-align: left;
+}
+
 .lesson-wrapper {
   height: 1300px;
   padding-bottom: 80px;
@@ -225,17 +229,12 @@ header {
 }
 
 #download-section {
-  text-align: center;
+  text-align: left;
 }
 
 #download-section h1 {
   text-align: left;
   font-size: 32px
-}
-
-#download-section2 h1 {
-  text-align: left;
-  font-size: 20px
 }
 
 #download-section h2 {
@@ -250,9 +249,9 @@ header {
   font-size: 16px;
 }
 
-kiji {
-  float: left;
-  font-size: 30px
+#download-section2 h1 {
+  text-align: left;
+  font-size: 20px
 }
 
 .border {
