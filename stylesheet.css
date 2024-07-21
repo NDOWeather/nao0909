@@ -241,6 +241,7 @@ header {
   text-align: left;
   font-size: 32px;
   border-bottom: solid 2px #ff7373;
+  padding-top: 0px;
   padding-bottom: 10px;
 }
 
@@ -252,14 +253,6 @@ header {
 #download-section2 h1 {
   text-align: left;
   font-size: 20px
-}
-
-#download-section2 h2 {
-  text-align: left;
-  font-size: 32px;
-  border-bottom: solid 2px #ff7373;
-  padding-top: 0px;
-  padding-bottom: 10px;
 }
 
 .border {
