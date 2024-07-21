@@ -150,7 +150,7 @@ header {
 
 .heading {
   padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   color: #323232;
 }
 
@@ -268,7 +268,7 @@ header {
 }
 
 .kiji-border {
-   padding-left: 6px;
+   padding-left: 12px;
    border-left: 4px solid #ff7373;
 }
 
