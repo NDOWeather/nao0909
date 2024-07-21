@@ -106,6 +106,11 @@ a {
   float: left;
 }
 
+.picture-right {
+  width: 10%;
+  float: left;
+}
+
 header {
   height: 60px;
   width: 100%;
