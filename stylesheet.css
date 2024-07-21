@@ -267,6 +267,11 @@ header {
   text-align: center;
 }
 
+.kiji-border {
+   padding-left: 2px;
+   border-left: 2px solid #ff7373;
+}
+
 footer img {
   width: 125px;
 }
