@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -127,7 +127,7 @@ header {
 .header-left a {
   line-height: 60px;
   padding-left: 12px;
-  font-family: "Outfit";
+  font-family: "Oswald";
   font-size: 27px;
   color: white;
   float: left;
