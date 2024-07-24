@@ -307,6 +307,11 @@ header {
    border-left: 4px solid #ff7373;
 }
 
+.kiji-border {
+   padding-left: 10px;
+   border-left: 4px solid #ff7373;
+}
+
 footer img {
   width: 125px;
 }
