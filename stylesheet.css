@@ -186,10 +186,12 @@ header {
 .heading2 {
   padding-top: 70px;
   padding-bottom: 10px;
+  text-align: left;
   color: #323232;
 }
 
 .heading2 h2 {
+  font-weight: normal;
   text-align: left;
 }
 
