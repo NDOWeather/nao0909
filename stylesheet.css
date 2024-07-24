@@ -183,6 +183,20 @@ header {
   text-align: left;
 }
 
+.heading2 {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  color: #323232;
+}
+
+.heading2 h2 {
+  text-align: left;
+}
+
+.heading2 h3 {
+  text-align: left;
+}
+
 .lesson-wrapper {
   height: 1300px;
   padding-bottom: 80px;
