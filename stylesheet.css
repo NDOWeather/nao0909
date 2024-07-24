@@ -175,6 +175,11 @@ header {
    border: 2px solid #ff7373;
 }
 
+.heading h1 {
+  font-size: 26px;
+  text-align: left;
+}
+
 .heading h2 {
   font-weight: normal;
 }
