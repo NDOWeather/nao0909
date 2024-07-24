@@ -100,6 +100,14 @@ a {
   float: left;
 }
 
+.picture2 {
+  width: 48%;
+  margin-bottom: 25px;
+  margin-right: 2%;
+  float: left;
+  display: block;
+}
+
 .picture-right {
   width: 48%;
   margin-bottom: 25px;
