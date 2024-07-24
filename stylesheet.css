@@ -265,6 +265,12 @@ header {
   padding-bottom: 10px;
 }
 
+#download-section h3 {
+  text-align: left;
+  font-size: 22px;
+  color: #323232;
+}
+
 #download-section p {
   text-align: left;
   font-size: 16px;
@@ -274,26 +280,6 @@ header {
   text-align: left;
   font-size: 22px;
   color: #323232;
-}
-
-#download-section2 {
-  text-align: left;
-}
-
-#download-section2 h2 {
-  text-align: left;
-  font-size: 32px;
-  border-bottom: solid 2px #ff7373;
-  padding-top: 0px;
-  padding-bottom: 10px;
-}
-
-#download-section2 p {
-  width: 55%;
-  margin-bottom: 25px;
-  margin-right: 2%;
-  float: left;
-  display: inline-block;
 }
 
 .border {
