@@ -119,6 +119,13 @@ a {
   float: left;
 }
 
+.text-right {
+  background-color: black;
+  width: 48%;
+  margin-bottom: 25px;
+  float: left;
+}
+
 header {
   height: 60px;
   width: 100%;
