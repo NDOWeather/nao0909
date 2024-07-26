@@ -20,6 +20,20 @@ a {
   margin: 0 auto;
 }
 
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.content-wrapper img {
+  margin-right: 20px;
+}
+
+.text-content {
+  flex: 1;
+}
+
 .fa-youtube {
     color: #ffffff;
     font-size: 16px;
