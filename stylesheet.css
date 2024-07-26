@@ -31,6 +31,7 @@ a {
 }
 
 .text-content {
+  vertical-align: top;
   flex: 1;
 }
 
