@@ -120,8 +120,8 @@ a {
 }
 
 .text-right {
-  padding-bottom: 17%;
   width: 48%;
+  margin-bottom: 25px;
   float: left;
 }
 
