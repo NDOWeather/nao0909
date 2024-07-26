@@ -291,6 +291,7 @@ header {
 .kiji-border {
    display: block;
    position: relative;
+   padding-right: 600px;
    padding-left: 12px;
    border-left: 4px solid #ff7373;
 }
