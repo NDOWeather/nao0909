@@ -31,7 +31,6 @@ a {
 }
 
 .text-content {
-  line-height: 1.45;
   flex: 1;
 }
 
@@ -289,9 +288,9 @@ header {
 }
 
 #download-section p {
-  line-height: 1.4;
+  line-height: 1.8;
   text-align: left;
-  font-size: 62.5%;
+  font-size: 16px;
 }
 
 #download-section a {
