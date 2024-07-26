@@ -289,6 +289,8 @@ header {
 }
 
 .kiji-border {
+   display: inline-block;
+   position: relative;
    padding-left: 12px;
    border-left: 4px solid #ff7373;
 }
