@@ -35,6 +35,12 @@ a {
   flex: 1;
 }
 
+.text-content p {
+  font-size: 2vw;
+  min-font-size: 12px; /* 最小フォントサイズ */
+  max-font-size: 18px; /* 最大フォントサイズ */
+}
+
 .fa-youtube {
     color: #ffffff;
     font-size: 16px;
