@@ -35,10 +35,6 @@ a {
   flex: 1;
 }
 
-.content-wrapper .text-content p {
-  font-size: 16px;
-}
-
 .fa-youtube {
     color: #ffffff;
     font-size: 16px;
@@ -295,7 +291,7 @@ header {
 #download-section p {
   line-height: 1.8;
   text-align: left;
-  font-size: 16px;
+  font-size: 32px;
 }
 
 #download-section a {
