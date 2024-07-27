@@ -35,8 +35,8 @@ a {
   flex: 1;
 }
 
-.text-content p {
-  font-size: 66px;
+.content-wrapper .text-content p {
+  font-size: 16px;
 }
 
 .fa-youtube {
@@ -351,14 +351,14 @@ footer {
 
 /* 画面幅が1200px以下の場合 */
 @media (max-width: 1200px) {
-  .text-content p {
+  .content-wrapper .text-content p {
     font-size: 14px;
   }
 }
 
 /* 画面幅が992px以下の場合 */
 @media (max-width: 992px) {
-  .text-content p {
+  .content-wrapper .text-content p {
     font-size: 12px;
   }
 }
@@ -373,7 +373,7 @@ footer {
     height: 990px;
   }
 
-  .text-content p {
+  .content-wrapper .text-content p {
     font-size: 10px;
   }
 
@@ -389,6 +389,10 @@ footer {
 
   .heading h2 {
     font-size: 20px;
+  }
+
+  .content-wrapper .text-content p {
+    font-size: 16px;
   }
 
   .menu-icon {
