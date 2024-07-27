@@ -36,9 +36,7 @@ a {
 }
 
 .text-content p {
-  font-size: 2vw;
-  min-font-size: 12px; /* 最小フォントサイズ */
-  max-font-size: 18px; /* 最大フォントサイズ */
+  font-size: 16px;
 }
 
 .fa-youtube {
@@ -351,6 +349,20 @@ footer {
   clear: both;
 }
 
+/* 画面幅が1200px以下の場合 */
+@media (max-width: 1200px) {
+  .text-content p {
+    font-size: 14px;
+  }
+}
+
+/* 画面幅が992px以下の場合 */
+@media (max-width: 992px) {
+  .text-content p {
+    font-size: 12px;
+  }
+}
+
 @media all and (max-width: 800px) {
   .lesson {
     width: 50%;
@@ -359,6 +371,10 @@ footer {
 
   .lesson-wrapper {
     height: 990px;
+  }
+
+  .text-content p {
+    font-size: 10px;
   }
 
   footer {
