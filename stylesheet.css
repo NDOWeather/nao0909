@@ -341,9 +341,20 @@ footer {
 
 /* 画面幅が1200px以下の場合 */
 @media (max-width: 1300px) {
-   .pictureg {
+   .picture {
     width: 100%;
     margin-right: 0;
+    float: none;
+  }
+
+  .pictureg {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+
+  .picture-right {
+    width: 100%;
     float: none;
   }
 
