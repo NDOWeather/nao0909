@@ -118,14 +118,6 @@ a {
   float: left;
 }
 
-.picture2 {
-  width: 55%;
-  margin-bottom: 25px;
-  margin-right: 2%;
-  float: left;
-  display: inline-block;
-}
-
 .picture-right {
   width: 48%;
   margin-bottom: 25px;
@@ -350,7 +342,7 @@ footer {
 /* 画面幅が1200px以下の場合 */
 @media (max-width: 1200px) {
    .pictureg {
-    width: 150%;
+    width: 120%;
     float: none;
   }
 
@@ -446,6 +438,12 @@ footer {
   }
   
   .picture {
+    width: 100%;
+    margin-right: 0;
+    float: none;
+  }
+
+  .pictureg {
     width: 100%;
     margin-right: 0;
     float: none;
