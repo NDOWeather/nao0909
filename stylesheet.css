@@ -111,6 +111,13 @@ a {
   float: left;
 }
 
+.pictureg {
+  width: 48%;
+  margin-bottom: 25px;
+  margin-right: 2%;
+  float: left;
+}
+
 .picture2 {
   width: 55%;
   margin-bottom: 25px;
@@ -120,12 +127,6 @@ a {
 }
 
 .picture-right {
-  width: 48%;
-  margin-bottom: 25px;
-  float: left;
-}
-
-.pictureg-right {
   width: 48%;
   margin-bottom: 25px;
   float: left;
@@ -348,7 +349,7 @@ footer {
 
 /* 画面幅が1200px以下の場合 */
 @media (max-width: 1200px) {
-   .pictureg-right {
+   .pictureg {
     width: 150%;
     float: none;
   }
