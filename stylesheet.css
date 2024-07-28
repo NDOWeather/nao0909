@@ -342,7 +342,7 @@ footer {
 /* 画面幅が1200px以下の場合 */
 @media (max-width: 1300px) {
    .pictureg {
-    width: 110%;
+    width: 115%;
     float: none;
   }
 
@@ -359,21 +359,6 @@ footer {
 
   .text-content {
     width: 100%;
-  }
-}
-
-@media all and (max-width: 800px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
-  footer {
-    text-align: center;
   }
 }
 
@@ -467,5 +452,9 @@ footer {
 
   .text-content {
     width: 100%;
+  }
+
+    footer {
+    text-align: center;
   }
 }
