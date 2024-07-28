@@ -363,7 +363,7 @@ footer {
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 1200px) {
   .header-right {
     display: none;
   }
