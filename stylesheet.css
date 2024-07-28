@@ -33,6 +33,7 @@ a {
 .text-content {
   vertical-align: top;
   flex: 1;
+  width: 48%;
 }
 
 .fa-youtube {
@@ -358,7 +359,7 @@ footer {
   }
 
   .text-content {
-    width: 100%;
+    width: 90%;
   }
 }
 
