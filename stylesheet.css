@@ -427,10 +427,9 @@ footer {
   }
 
   .c-hamburger-menu {
-  position: relative;
-}
+    position: relative;
+  }
 
-@media screen and (max-width: 750px) {
   .c-hamburger-menu__list {
     background-color: #eeeeee; /* カスタマイズしてください */
     align-items: flex-start;
@@ -449,8 +448,6 @@ footer {
     transform: translateX(0%);
     transition: 0.3s;
   }
-}
-
 .c-hamburger-menu__input {
   display: none;
 }
@@ -476,7 +473,6 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 750px) {
   .c-hamburger-menu__button {
     align-items: center;
     appearance: none;
@@ -500,7 +496,6 @@ footer {
   width: 20px; /* カスタマイズしてください */
 }
 
-@media screen and (max-width: 750px) {
   #hamburger:checked
     ~ .c-hamburger-menu__button
     .c-hamburger-menu__button-mark:nth-of-type(1) {
@@ -518,9 +513,8 @@ footer {
     transform: translate(2px, 3px) rotate(-45deg); /* カスタマイズしてください */
     transform-origin: 0%; /* カスタマイズしてください */
   }
-}
-
-    footer {
+  
+  footer {
     text-align: center;
   }
 }
