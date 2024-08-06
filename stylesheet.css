@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -36,8 +37,8 @@ a {
 }
 
 .fa-youtube {
-    color: #ffffff;
-    font-size: 16px;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 .top-wrapper {
@@ -128,7 +129,7 @@ header {
   height: 60px;
   width: 100%;
   background-color: rgba(255,115,115,0.9);
-  position :fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
 }
@@ -172,12 +173,12 @@ header {
 }
 
 .heading-border {
-   font-size: 20px;
-   padding-top: 8px;
-   padding-bottom: 8px;
-   padding-left: 8px;
-   padding-right: 8px;
-   border: 2px solid #ff7373;
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 2px solid #ff7373;
 }
 
 .heading h1 {
@@ -243,7 +244,7 @@ header {
 
 #download-section h1 {
   text-align: left;
-  font-size: 32px
+  font-size: 32px;
 }
 
 #download-section h2 {
@@ -279,10 +280,10 @@ header {
 }
 
 .kiji-border {
-   display: block;
-   position: relative;
-   padding-left: 12px;
-   border-left: 4px solid #ff7373;
+  display: block;
+  position: relative;
+  padding-left: 12px;
+  border-left: 4px solid #ff7373;
 }
 
 footer img {
@@ -305,66 +306,46 @@ footer {
   font-size: 26px;
   padding: 21px 0;
   display: none;
+  cursor: pointer;
 }
 
 .clear {
   clear: both;
 }
 
-@media (max-width: 1200px) {
-  .pictureg {
-    width: 100%;
-    margin-right: 0;
-    float: none;
-  }
-
-  .content-wrapper {
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-  }
-
-  .content-wrapper img {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .text-content {
-    width: 100%;
-  }
-}
-
+/* Media Query for 800px or less */
 @media all and (max-width: 800px) {
   .header-right {
     display: none;
-  }
-
-  .heading h2 {
-    font-size: 20px;
   }
 
   .menu-icon {
     display: block;
   }
 
+  #menu-toggle:checked + .menu-icon + .header-left + .header-right {
+    display: block;
+    width: 100%;
+    background-color: rgba(255,115,115,0.9);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 9;
+  }
+
+  .header-right a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+
   .top-wrapper h1 {
     font-size: 32px;
   }
-  
-  .top-wrapper .btn {
-    width: 100%;
-  }
 
-  .twitter {
-    margin-top: 10px;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
-
-  .top-wrapper h1 {
-    font-size: 24px;
+  .top-wrapper h2 {
+    font-size: 20px;
   }
 
   .top-wrapper p {
@@ -372,42 +353,20 @@ footer {
   }
 
   #download-section h1 {
-    text-align: left;
-    font-size: 24px
+    font-size: 24px;
   }
 
   #download-section h2 {
-    text-align: left;
-    font-size: 32px
-  }
-
-  #download-section2 h1 {
-    text-align: left;
-    font-size: 18px
-  }
-
-  .lesson {
-    width: 100%;
+    font-size: 20px;
   }
 
   .lesson-wrapper {
-    height: 1400px;
-  }
-  
-  .picture {
-    width: 100%;
-    margin-right: 0;
-    float: none;
+    height: auto;
   }
 
-  .pictureg {
+  .picture, .pictureg, .picture-right {
     width: 100%;
     margin-right: 0;
-    float: none;
-  }
-
-  .picture-right {
-    width: 100%;
     float: none;
   }
 
@@ -425,7 +384,7 @@ footer {
   .text-content {
     width: 100%;
   }
-  
+
   footer {
     text-align: center;
   }
