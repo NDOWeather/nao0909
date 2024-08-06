@@ -285,24 +285,6 @@ header {
    border-left: 4px solid #ff7373;
 }
 
-/* リセットCSS */
-button {
-  border-color: transparent;
-  background: transparent;
-  cursor: pointer;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 footer img {
   width: 125px;
 }
@@ -345,89 +327,6 @@ footer {
 }
 
 @media all and (max-width: 800px) {
-  .conts-body {
-  position: relative;
-  background: #eee;
-  width: 400px;
-  height: 600px;
-  margin: 0 auto;
-}
-
-.hamburger {
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: 10px;
-  right: 16px;
-  z-index: 100;
-}
-
-.hamburger_bar {
-  display: block;
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  left: 0;
-  background: #000;
-  transition: top 0.24s, transform 0.24s, opacity 0.24s;
-}
-
-.hamburger_bar:nth-child(1) {
-  top: 0;
-}
-
-.hamburger_bar:nth-child(2) {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.hamburger_bar:nth-child(3) {
-  top: 100%;
-  transform: translateY(-100%);
-}
-
-.hamburger_bar.is_active:nth-child(1) {
-  top: 50%;
-  transform: translateY(-50%) rotate(135deg);
-}
-
-.hamburger_bar.is_active:nth-child(2) {
-  transform: translate(50%, -50%);
-  opacity: 0;
-}
-
-.hamburger_bar.is_active:nth-child(3) {
-  top: 50%;
-  transform: translateY(-50%) rotate(-135deg);
-}
-
-.nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 99;
-  background: #a0a0a0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.24s;
-  pointer-events: none;
-}
-
-.nav.is_active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.nav-list {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-  
   .header-right {
     display: none;
   }
