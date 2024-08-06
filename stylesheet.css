@@ -389,10 +389,10 @@ footer {
   
   .drawer-content {
   display: block;
-  width: 40%;
+  width: 30%;
   height: 100%;
   position: fixed;
-  top: 0;
+  top: 60;
   right: 100%; /* メニューを画面の外に飛ばす */
   z-index: 99;
   background: #fff;
