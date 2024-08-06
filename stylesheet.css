@@ -285,6 +285,18 @@ header {
    border-left: 4px solid #ff7373;
 }
 
+.drawer-hidden {
+    display: none;
+}
+
+.drawer-open {
+    display: none;
+}
+
+.drawer-content {
+    display: none;
+}
+
 footer img {
   width: 125px;
 }
