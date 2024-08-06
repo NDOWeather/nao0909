@@ -293,7 +293,9 @@ header {
    display: none;
 }
 
-
+.drawer-content {
+   display: none;
+}
 
 footer img {
   width: 125px;
@@ -347,7 +349,6 @@ footer {
     cursor: pointer;
   }
 
-/* ハンバーガーメニューのアイコン */
 .drawer-open span,
 .drawer-open span:before,
 .drawer-open span:after {
