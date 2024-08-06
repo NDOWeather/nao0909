@@ -387,7 +387,7 @@ footer {
   
   .drawer-content {
     display: block;
-    width: 100%;
+    width: 40%;
     height: 100%;
     position: fixed;
     top: 0;
