@@ -347,6 +347,58 @@ footer {
     display: block;
   }
 
+  .Menu {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.2);
+  color: #111;
+}
+.Menu-CloseBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  padding: 8px;
+}
+.Menu-CloseBtn-Icon {
+  width: 32px;
+  color: #111;
+}
+.Menu-Group {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80vw;
+  height: 100vh;
+  background: #fff;
+  padding: 32px 12px;
+}
+.Menu-Group > * + * {
+  border-top: solid 1px #bbb;
+}
+.Menu-Group-Item {
+  width: 100%;
+  flex: auto;
+  padding: 4px;
+}
+.Menu-Group-Item-Link {
+  padding: 1em 0.5em;
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+.Menu-Group-Item-Link::after {
+  content: "";
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJoLTYgdy02IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjIiPiA8cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik05IDVsNyA3LTcgNyIgLz48L3N2Zz4=");
+  width: 20px;
+  display: block;
+  margin-left: auto;
+}
+
   .top-wrapper h1 {
     font-size: 32px;
   }
