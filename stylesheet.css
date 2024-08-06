@@ -393,7 +393,7 @@ footer {
   height: 30%;
   position: fixed;
   top: 60;
-  left: 100%; /* メニューを画面の外に飛ばす */
+  right: 100%; /* メニューを画面の外に飛ばす */
   z-index: 99;
   background: #fff;
   transition: .5s;
