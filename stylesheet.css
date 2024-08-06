@@ -399,7 +399,7 @@ footer {
   }
 
   #drawer-check:checked ~ .drawer-content {
-    right: 0;/* メニューを画面に入れる */
+    left: 0;/* メニューを画面に入れる */
   }
   
   .header-right {
