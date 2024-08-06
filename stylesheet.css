@@ -340,16 +340,17 @@ footer {
 
 @media all and (max-width: 800px) {
   .drawer-open {
-    display: flex;
-    height: 60px;
-    width: 60px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 0;
-    z-index: 100;
-    cursor: pointer;
-  }
+  display: flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0; /* 右側に配置 */
+  z-index: 100;
+  cursor: pointer;
+}
 
   .drawer-open span,
   .drawer-open span:before,
@@ -387,20 +388,20 @@ footer {
   }
   
   .drawer-content {
-    display: block;
-    width: 40%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 100%;/* メニューを画面の外に飛ばす */
-    z-index: 99;
-    background: #fff;
-    transition: .5s;
-  }
+  display: block;
+  width: 40%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 100%; /* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: #fff;
+  transition: .5s;
+}
 
-  #drawer-check:checked ~ .drawer-content {
-    left: 0;/* メニューを画面に入れる */
-  }
+#drawer-check:checked ~ .drawer-content {
+  right: 0; /* メニューを画面に入れる */
+}
   
   .header-right {
     display: none;
