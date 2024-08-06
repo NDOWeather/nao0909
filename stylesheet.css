@@ -392,14 +392,14 @@ footer {
     height: 100%;
     position: fixed;
     top: 0;
-    right: 100%;/* メニューを画面の外に飛ばす */
+    left: 100%;/* メニューを画面の外に飛ばす */
     z-index: 99;
     background: #fff;
     transition: .5s;
   }
 
   #drawer-check:checked ~ .drawer-content {
-    left: 0;/* メニューを画面に入れる */
+    right: 0;/* メニューを画面に入れる */
   }
   
   .header-right {
