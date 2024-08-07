@@ -404,6 +404,7 @@ footer {
     color: white; /* 文字色を白に変更 */
     display: block;
     padding: 10px; /* 項目の周りに余白を追加 */
+    padding-top: 20px; /* 項目の周りに余白を追加 */
     padding-left: 20px; /* 項目の周りに余白を追加 */
   }
 
