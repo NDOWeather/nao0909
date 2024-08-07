@@ -400,13 +400,15 @@ footer {
   }
 
   .drawer-item a {
-    font-size: 22px;
-    color: white;
+    font-size: 18px; /* フォントサイズを大きく変更 */
+    color: white; /* 文字色を白に変更 */
+    display: block;
+    padding: 10px; /* 項目の周りに余白を追加 */
   }
 
   .drawer-list {
     list-style-type: none;
-    padding-top: 20px;
+    padding: 0;
     margin: 0;
   }
   
