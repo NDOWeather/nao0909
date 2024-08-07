@@ -388,26 +388,26 @@ footer {
   }
   
   .drawer-content {
-  display: block;
-  width: 100%;
-  height: 30%;
-  position: fixed;
-  top: 60;
-  right: 100%; /* メニューを画面の外に飛ばす */
-  z-index: 99;
-  background: #ff7373;
-  transition: .5s;
-}
+    display: block;
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    top: 60;
+    right: 100%; /* メニューを画面の外に飛ばす */
+    z-index: 99;
+    background: #ff7373;
+    transition: .5s;
+  }
 
-   .drawer-item a {
-    font-size: 18px; /* フォントサイズを大きく変更 */
+  .drawer-item a {
+    font-size: 22px;
     color: white;
   }
 
   
-#drawer-check:checked ~ .drawer-content {
-  right: 0; /* メニューを画面に入れる */
-}
+  #drawer-check:checked ~ .drawer-content {
+    right: 0; /* メニューを画面に入れる */
+  }
   
   .header-right {
     display: none;
