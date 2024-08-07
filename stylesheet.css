@@ -404,6 +404,11 @@ footer {
     color: white;
   }
 
+  .drawer-list {
+    list-style-type: none; /* リストマーカーを削除 */
+    padding: 0;
+    margin: 0;
+  }
   
   #drawer-check:checked ~ .drawer-content {
     right: 0; /* メニューを画面に入れる */
