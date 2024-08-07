@@ -395,7 +395,7 @@ footer {
     top: 60;
     right: 100%; /* メニューを画面の外に飛ばす */
     z-index: 99;
-    background: #ff7373;
+    background-color: rgba(255,115,115,0.9);
     transition: .5s;
   }
 
