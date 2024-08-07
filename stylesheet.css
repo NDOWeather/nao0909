@@ -405,8 +405,8 @@ footer {
   }
 
   .drawer-list {
-    list-style-type: none; /* リストマーカーを削除 */
-    padding: 0;
+    list-style-type: none;
+    padding-top: 20px;
     margin: 0;
   }
   
