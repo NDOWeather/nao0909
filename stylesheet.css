@@ -404,8 +404,7 @@ footer {
     color: white;
     display: block;
     padding: 12px; /* 項目の周りに余白を追加 */
-    padding-left: 16px;
-    border-bottom: 1px solid white; /* 項目の下に白い線を追加 */
+    border-bottom: 2px solid white; /* 項目の下に白い線を追加 */
   }
 
   .drawer-list {
