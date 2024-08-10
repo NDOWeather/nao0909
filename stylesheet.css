@@ -406,6 +406,13 @@ footer {
     border-top: 0.5px solid white; /* 項目の下に白い線を追加 */
   }
 
+  .drawer-item2 a {
+    font-size: 18px;
+    color: white;
+    display: block;
+    padding: 12px; /* 項目の周りに余白を追加 */
+  }
+
   .drawer-list {
     list-style-type: none;
     padding: 0;
