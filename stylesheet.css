@@ -466,13 +466,31 @@ footer {
 
   #download-section h2 {
     text-align: left;
-    font-size: 32px
+ 　 font-size: 24px;
+ 　 border-bottom: solid 2px #ff7373;
+ 　 padding-top: 0px;
+ 　 padding-bottom: 10px;
   }
 
-  #download-section2 h1 {
-    text-align: left;
-    font-size: 18px
-  }
+
+#download-section h3 {
+  text-align: left;
+  font-size: 22px;
+  color: #323232;
+}
+
+#download-section p {
+  line-height: 2;
+  text-align: left;
+  font-size: 16px;
+}
+
+#download-section a {
+  text-align: left;
+  font-size: 22px;
+  color: #323232;
+}
+
 
   .lesson {
     width: 100%;
