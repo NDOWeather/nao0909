@@ -350,7 +350,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 0; /* 右側に配置 */
+    right: 0;
     z-index: 100;
     cursor: pointer;
   }
@@ -403,15 +403,15 @@ footer {
   }
 
   .drawer-item a {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     display: block;
     padding: 15px; /* 項目の周りに余白を追加 */
-    border-top: 0.5px solid white; /* 項目の下に白い線を追加 */
+    border-top: 0.5px solid white;
   }
 
   .drawer-item2 a {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     display: block;
     padding: 15px; /* 項目の周りに余白を追加 */
@@ -441,7 +441,7 @@ footer {
   }
 
   .heading h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .top-wrapper h1 {
