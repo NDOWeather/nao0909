@@ -86,6 +86,10 @@ a {
   background-color: #000000;
 }
 
+.site {
+  background-color: #ff7373;
+}
+
 .btn {
   padding: 6px 22px;
   color: white;
