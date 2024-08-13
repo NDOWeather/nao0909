@@ -426,6 +426,15 @@ footer {
   #drawer-check:checked ~ .drawer-content {
     right: 0; /* メニューを画面に入れる */
   }
+
+  .header-left a {
+    line-height: 60px;
+    padding-left: 12px;
+    font-size: 20px;
+    color: white;
+    float: left;
+    transition: all 0.5s;
+  }
   
   .header-right {
     display: none;
@@ -447,6 +456,15 @@ footer {
     margin-top: 10px;
   }
 
+  .heading-border {
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 2px solid #ff7373;
+  }
+  
   .top-wrapper {
     text-align: left;
   }
