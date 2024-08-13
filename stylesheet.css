@@ -472,25 +472,23 @@ footer {
  　 padding-bottom: 10px;
   }
 
+  #download-section h3 {
+    text-align: left;
+    font-size: 22px;
+    color: #323232;
+  }
 
-#download-section h3 {
-  text-align: left;
-  font-size: 22px;
-  color: #323232;
-}
+  #download-section p {
+    line-height: 2;
+    text-align: left;
+    font-size: 12px;
+  } 
 
-#download-section p {
-  line-height: 2;
-  text-align: left;
-  font-size: 16px;
-}
-
-#download-section a {
-  text-align: left;
-  font-size: 22px;
-  color: #323232;
-}
-
+  #download-section a {
+    text-align: left;
+    font-size: 22px;
+    color: #323232;
+  }
 
   .lesson {
     width: 100%;
