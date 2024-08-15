@@ -147,7 +147,10 @@ header {
   font-size: 27px;
   color: white;
   float: left;
-  transition: all 0.5s;
+}
+
+.header-left a:hover {
+  background-color: rgba(255,255,255,0.2);
 }
 
 .header-right {
