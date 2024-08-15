@@ -144,6 +144,7 @@ header {
 .header-left a {
   line-height: 60px;
   padding-left: 12px;
+  padding-right: 12px;
   font-size: 27px;
   color: white;
   float: left;
