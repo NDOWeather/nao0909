@@ -92,7 +92,8 @@ a {
 
 .btn {
   padding: 7px 24px;
-  margin-right: 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
   color: white;
   display: inline-block;
   opacity: 0.9;
