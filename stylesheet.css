@@ -91,7 +91,8 @@ a {
 }
 
 .btn {
-  padding: 8px 24px;
+  padding: 7px 24px;
+  margin-right: 20px;
   color: white;
   display: inline-block;
   opacity: 0.9;
