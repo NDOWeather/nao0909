@@ -166,7 +166,6 @@ header {
   color: white;
   display: block;
   float: left;
-  transition: all 0.5s;
 }
 
 .header-right a:hover {
@@ -424,7 +423,6 @@ footer {
     font-size: 22px;
     color: white;
     float: left;
-    transition: all 0.5s;
   }
   
   .header-right {
