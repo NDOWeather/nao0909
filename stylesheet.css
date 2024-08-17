@@ -278,7 +278,7 @@ header {
   text-align: center;
 }
 
-.kiji-border h3 {
+.kiji-border {
    display: block;
    position: relative;
    padding-left: 12px;
