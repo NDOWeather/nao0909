@@ -152,10 +152,6 @@ header {
   float: left;
 }
 
-.header-left a:hover {
-  background-color: rgba(255,255,255,0.2);
-}
-
 .header-right {
   float: right;
   margin-right: -25px;
