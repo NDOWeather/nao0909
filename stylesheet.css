@@ -254,6 +254,12 @@ header {
   color: #323232;
 }
 
+#download-section h4 {
+  text-align: left;
+  font-size: 16px;
+  line-height: 2;
+}
+
 #download-section p {
   line-height: 2;
   text-align: left;
