@@ -275,7 +275,7 @@ header {
 
 .kiji-border {
    display: block;
-   position: absolute;
+   position: relative;
    padding-left: 12px;
    border-left: 4px solid #ff7373;
 }
@@ -308,31 +308,6 @@ footer {
 
 .clear {
   clear: both;
-}
-
-@media (max-width: 1200px) {
-  .pictureg {
-    width: 100%;
-    margin-right: 0;
-    float: none;
-  }
-
-  .content-wrapper {
-    font-size: 14px;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-  }
-
-  .content-wrapper img {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-
-  .text-content {
-    font-size: 14px;
-    width: 100%;
-  }
 }
 
 @media all and (max-width: 800px) {
