@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -148,6 +148,7 @@ header {
   padding-left: 12px;
   padding-right: 12px;
   font-size: 27px;
+  font-family: 'Barlow';
   color: white;
   float: left;
 }
