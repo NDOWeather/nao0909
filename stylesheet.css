@@ -30,7 +30,7 @@ a {
   margin-right: 35px;
 }
 
-.text-content p {
+.text-content {
   flex: 1;
   font-size: 16px;
   width: 48%;
