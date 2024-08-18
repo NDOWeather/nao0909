@@ -325,80 +325,6 @@ footer {
 }
 
 @media (max-width: 1200px) {
-  .heading h1 {
-    font-size: 32px;
-    font-weight: normal;
-    text-align: left;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-    font-weight: normal;
-    text-align: left;
-  }
-
-  .heading-border {
-    font-size: 20px;
-    padding: 8px;
-    border: 2px solid #ff7373;
-  }
-
-  .top-wrapper h1 {
-    opacity: 0.9;
-    font-size: 54px;
-    letter-spacing: 0px;
-  }
-
-  .top-wrapper h2 {
-    opacity: 0.9;
-    font-size: 27px;
-    letter-spacing: 0px;
-  }
-
-  .top-wrapper p {
-    opacity: 0.9;
-    font-size: 20px;
-    margin-bottom: 0px;
-  }
-
-  #download-section h1 {
-    text-align: left;
-    font-size: 32px
-  }
-
-  #download-section h2 {
-    text-align: left;
-    font-size: 32px;
-    border-bottom: solid 2px #ff7373;
-    padding-bottom: 10px;
-  }
-
-  #download-section h3 {
-    text-align: left;
-    font-size: 30px;
-    color: #323232;
-  }
-
-  #download-section p {
-    line-height: 2;
-    text-align: left;
-    font-size: 16px;
-  } 
-
-  #download-section a {
-    text-align: left;
-    font-size: 16px;
-    color: #323232;
-  }
-
-  .kiji-border h3 {
-     font-size: 20px;
-  }
-  
-  .kiji-border a {
-     font-size: 24px;
-  }
-
   .pictureg {
     width: 100%;
     margin-right: 0;
@@ -423,7 +349,7 @@ footer {
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1200px) {
   .drawer-open {
     display: flex;
     height: 60px;
