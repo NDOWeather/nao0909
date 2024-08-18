@@ -21,6 +21,7 @@ a {
 }
 
 .content-wrapper {
+  font-size: 16px;
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
@@ -188,12 +189,13 @@ header {
 
 .heading h1 {
   font-weight: normal;
-  font-size: 26px;
+  font-size: 32px;
   text-align: left;
 }
 
 .heading h2 {
   font-weight: normal;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -439,6 +441,12 @@ footer {
     display: none;
   }
 
+  .heading h1 {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: left;
+  }
+
   .heading h2 {
     font-size: 18px;
     font-weight: normal;
@@ -446,7 +454,7 @@ footer {
   }
 
   .heading-border {
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
     border: 2px solid #ff7373;
   }
@@ -481,7 +489,7 @@ footer {
 
   #download-section h1 {
     text-align: left;
-    font-size: 24px
+    font-size: 26px
   }
 
   #download-section h2 {
