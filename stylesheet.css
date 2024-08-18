@@ -11,10 +11,6 @@ body {
   font-family: "Roboto", "Noto Sans JP", sans-serif;
 }
 
-*:not([style*="font-size"]) {
-  font-size: 16px;
-}
-
 a {
   text-decoration: none;
 }
