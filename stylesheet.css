@@ -344,16 +344,8 @@ footer {
   }
 
   .text-content {
-    font-size: 2vw;
+    font-size: 10%;
     width: 100%;
-  }
-
-  .text-contents {
-  width: 80%;
-  display: inline-block;
-  font-size: 100px;
-  margin-top: 15px;
-  color: #323232;
   }
 }
 
