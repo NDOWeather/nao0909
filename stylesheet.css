@@ -38,7 +38,6 @@ a {
 
 .text-content {
   flex: 1;
-  font-size: 2vw;
   width: 48%;
 }
 
@@ -344,7 +343,6 @@ footer {
   }
 
   .text-content {
-    font-size: 10%;
     width: 100%;
   }
 }
@@ -564,7 +562,6 @@ footer {
   }
 
   .text-content {
-    font-size: 90.5%;
     width: 100%;
   }
   
