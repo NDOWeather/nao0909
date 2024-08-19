@@ -412,7 +412,7 @@ footer {
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 770px) {
   .drawer-open {
     display: flex;
     height: 60px;
