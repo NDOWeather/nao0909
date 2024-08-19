@@ -10,11 +10,6 @@ body {
   font-family: "Roboto", "Noto Sans JP", sans-serif;
 }
 
-/* フォントサイズが明示的に設定されていない要素をターゲットにする */
-*:not([style*="font-size"]) {
-  font-size: 16px;
-}
-
 a {
   text-decoration: none;
 }
@@ -179,7 +174,6 @@ header {
 
 .heading {
   font-weight: normal;
-  font-size: 16px;
   padding-top: 70px;
   padding-bottom: 10px;
   color: #323232;
@@ -224,14 +218,6 @@ header {
   text-align: center;
 }
 
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  font-size: 13px;
-  margin-top: 15px;
-  color: #323232;
-}
-
 .message-wrapper {
   border-bottom: 1px solid #aaaaaa;
   padding-bottom: 80px;
@@ -269,7 +255,6 @@ header {
 #download-section p {
   line-height: 2;
   text-align: left;
-  font-size: 16px;
 }
 
 .border {
