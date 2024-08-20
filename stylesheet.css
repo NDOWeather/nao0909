@@ -463,7 +463,7 @@ footer {
   .drawer-content {
     display: block;
     width: 100%;
-    height: 165px;
+    height: 155px;
     position: fixed;
     top: 60px;
     right: 100%; /* メニューを画面の外に飛ばす */
