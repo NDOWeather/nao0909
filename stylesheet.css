@@ -265,6 +265,10 @@ header {
   font-size: 20px;
   color: #323232;
 }
+#download-section a:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
 
 #download-section p {
   line-height: 2;
