@@ -287,6 +287,11 @@ header {
    font-size: 24px;
 }
 
+.kiji-border a:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
 .drawer-hidden {
    display: none;
 }
