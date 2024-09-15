@@ -267,7 +267,7 @@ header {
 }
 #download-section a:hover {
     color: #000000;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ff7373;
 }
 
 #download-section p {
@@ -293,7 +293,7 @@ header {
 
 .kiji-border a:hover {
     color: #000000;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ff7373;
 }
 
 .drawer-hidden {
