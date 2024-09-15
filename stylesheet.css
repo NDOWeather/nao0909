@@ -266,7 +266,7 @@ header {
   color: #323232;
 }
 #download-section a:hover {
-    color: #000000;
+    color: #ff7373;
     border-bottom: 1px solid #ff7373;
 }
 
@@ -292,7 +292,7 @@ header {
 }
 
 .kiji-border a:hover {
-    color: #000000;
+    color: #ff7373;
     border-bottom: 1px solid #ff7373;
 }
 
