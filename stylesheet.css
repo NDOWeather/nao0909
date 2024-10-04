@@ -15,12 +15,17 @@ a {
 }
 
 .container {
-  width: 100%;
   padding: 0 10px;
-  margin: 0 auto;
 }
 
 .content-wrapper {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.content-wrapper2 {
   font-size: 16px;
   display: flex;
   align-items: flex-start;
@@ -31,10 +36,13 @@ a {
   margin-right: 35px;
 }
 
-.text-content {
-  flex: 1;
+.content-wrapper2 img {
+  margin-right: 35px;
+}
+
+.text-content p {
   font-size: 16px;
-  width: 48%;
+  float: left;
 }
 
 .fa-youtube {
@@ -124,11 +132,14 @@ a {
   float: left;
 }
 
+.picture3 {
+  width: 70%;
+  margin-bottom: 25px;
+  float: left;
+}
+
 .pictureg {
   width: 48%;
-  margin-bottom: 25px;
-  margin-right: 2%;
-  float: left;
 }
 
 .picture-right {
@@ -229,7 +240,7 @@ header {
   width: 80%;
   display: inline-block;
   font-size: 13px;
-  margin-top: 15px;
+  margin-top: 10px;
   color: #323232;
 }
 
@@ -266,10 +277,16 @@ header {
   font-size: 20px;
   color: #323232;
 }
+
 #download-section a:hover {
     color: #ff7373;
-    border-bottom: 1px solid #ff7373;
 }
+
+#download-section2 a {
+    text-align: left;
+    font-size: 20px;
+    color: #323232;
+  }
 
 #download-section p {
   line-height: 2;
@@ -325,6 +342,63 @@ footer {
 
 .clear {
   clear: both;
+}
+
+.lb {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.7);
+    opacity: 0;
+    transition: .3s opacity ease;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.lb img {
+    width: auto !important;
+    max-height: 80%!important;
+    cursor: pointer;
+}
+
+.lb img,
+.lb iframe {
+    transform: scale(.85);
+    transition: .3s all ease;
+}
+
+.lb:target {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 101;
+}
+
+.lb:target img,
+.lb:target iframe {
+    transform: scale(1);
+}
+
+.lb::before,.lb::after {
+    display: block;
+    position: fixed;
+    content: "";
+    width: 24px;
+    height:3px;
+    top: 24px;
+    right: 12px;
+    background: #fff;
+    border-radius: 4px;
+}
+.lb::before {
+    transform: rotate(-315deg);
+}
+.lb::after {
+    transform: rotate(315deg);
 }
 
 @media (max-width: 1200px) {
