@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NDOWeather | NDOWeatherのサイトがリニューアル</title>
+  <link rel="icon" href="image/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <img class="logo" src="logo.png" alt="Logo">
+      </div>
+      <div class="header-left">
+        <a href="https://ndoweather.github.io/nao0909/">NDOWeather</a>
+      </div>
+      <div class="header-right">
+        <a href="https://ndoweather.github.io/nao0909/gamen.html">録画画面・配信画面</a>
+        <a href="https://ndoweather.github.io/nao0909/history.html">History of NDOWeather</a>
+        <a href="https://ndoweather.github.io/nao0909/picture.html">Picture</a>
+      </div>
+    </div>
+    <div class="drawer">
+    <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+    <label for="drawer-check" class="drawer-open"><span></span></label>
+    <nav class="drawer-content">
+      <ul class="drawer-list">
+        <li class="drawer-item2">
+          <a href="https://ndoweather.github.io/nao0909/gamen.html">録画画面・配信画面</a>
+        </li><!-- /.drawer-item -->
+        <li class="drawer-item">
+          <a href="https://ndoweather.github.io/nao0909/history.html">History of NDOWeather</a>
+        </li><!-- /.drawer-item -->
+        <li class="drawer-item">
+          <a href="https://ndoweather.github.io/nao0909/picture.html">Picture</a>
+        </li><!-- /.drawer-item -->
+      </ul><!-- /.drawer-list -->
+    </nav>
+   </div>
+  </header>
+  <div class="picture-background">
+   <div class="heading">
+    <div class="container">
+     <div class="message-wrapper">
+      <section id="download-section">
+        <p>2024年7月21日</p>
+        <h2>NDOWeatherのサイトがリニューアル</h2>
+        <p>こんばんは。お久しぶりです。見慣れないサイトだと思いますが、NDOWeatherのサイトをリニューアルしました。</p>
+        <p>今までは、ホームページをコードなしで簡単に作れるツールを使って、3年間更新を行ってきました。</p>
+        <p>旧ホームページでもよかったですが、今年4月から無料の場合は画像を添付する際にサイズの制限がかかるなど、自由度がなくなってしまったため、頑張って作ることにしました。</p>
+        <p>今のところは内容がほとんど旧ホームページの引き継ぎとなっています...　</p>
+        <p>正直記事を書くのが面倒になりそうで、更新が少なくなりそうですが、頑張ります（）</p>
+        <p>今後もNDOWeatherをよろしくお願いします。</p>
+        <h4>＜旧ホームページのリンク＞（こちらで記事を更新する可能性が約数%あります）</h4>
+        <a href="https://ndoweather-nao0909.amebaownd.com/" target="_blank">https://ndoweather-nao0909.amebaownd.com/</a>
+      </section>
+     </div>
+     <div class="clear"></div>
+    </div>
+   </div>
+  <footer>
+   <div class="container">
+     <p>Copyright © 2024 NDOWeather All rights reserved</p>
+   </div>
+  </footer>
+</body>
+</html>
