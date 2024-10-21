@@ -284,6 +284,13 @@ header {
    border-left: 4px solid #ff7373;
 }
 
+.kiji-border2 {
+   display: block;
+   position: relative;
+   padding-top: 12px;
+   border-top: 2px solid #121518;
+}
+
 .kiji-border h3 {
    font-size: 20px;
 }
