@@ -261,11 +261,18 @@ header {
   color: #323232;
 }
 
+#download-section h4 {
+  line-height: 2;
+  text-align: left;
+  font-size: 6px;
+}
+
 #download-section a {
   text-align: left;
   font-size: 20px;
   color: #323232;
 }
+
 #download-section a:hover {
     color: #ff7373;
     border-bottom: 1px solid #ff7373;
@@ -284,13 +291,6 @@ header {
    border-left: 4px solid #ff7373;
 }
 
-.kiji-border2 {
-   display: block;
-   position: relative;
-   padding-top: 12px;
-   border-top: 2px solid #121518;
-}
-
 .kiji-border h3 {
    font-size: 20px;
 }
@@ -299,7 +299,13 @@ header {
    font-size: 24px;
 }
 
-.kiji-border a:hover {
+.kiji-border2 p {
+  font-size: 16px;
+  padding-top: 26px;
+  border-top: 0.5px solid #9e9d9d;
+}
+
+.kiji-border2 a:hover {
     color: #ff7373;
     border-bottom: 1px solid #ff7373;
 }
