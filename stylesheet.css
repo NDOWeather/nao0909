@@ -76,6 +76,12 @@ a {
   float: center;
 }
 
+.btn-wrapper2 {
+  text-align: right;
+  justify-content: right;
+  float: right;
+}
+
 .btn-wrapper p {
   margin-bottom: 20px;
 }
@@ -93,6 +99,10 @@ a {
   font-size: 14px;
 }
 
+miru {
+  font-size: 14px;
+}
+
 .btn {
   padding: 6px 22px 5px;
   margin-left: 10px;
@@ -104,9 +114,22 @@ a {
   text-align: right;
 }
 
+.btn2 {
+  padding-left: 30px;
+  padding-bottom: 8px;
+  color: black;
+  display: inline-block;
+  border-bottom: 1px solid #ff7373;
+  text-align: right;
+}
+
 .btn:hover {
   opacity: 1;
-}  
+}
+
+.btn2:hover {
+  border-bottom: 2px solid #ff7373;
+}   
 
 .logo {
   width: 55px;
