@@ -216,6 +216,12 @@ header {
   border: 2px solid #ff7373;
 }
 
+.heading-border2 {
+  font-size: 20px;
+  line-height: 45px;
+  padding: 8px;
+}
+
 .heading h1 {
   font-weight: normal;
   font-size: 32px;
