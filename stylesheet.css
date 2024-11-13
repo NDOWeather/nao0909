@@ -219,7 +219,7 @@ header {
 .heading-border2 {
   font-size: 20px;
   line-height: 45px;
-  padding: 8px;
+  padding: 20px;
 }
 
 .heading h1 {
@@ -596,7 +596,8 @@ footer {
   .heading-border2 {
     font-size: 18px;
     line-height: 45px;
-    padding: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   .top-wrapper .btn {
