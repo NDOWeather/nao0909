@@ -634,7 +634,7 @@ footer {
 
   #download-section h2 {
     text-align: left;
-    font-size: 26px;
+    font-size: 20px;
     border-bottom: solid 2px #ff7373;
     padding-bottom: 10px;
   }
@@ -658,11 +658,11 @@ footer {
   }
 
   .kiji-border h3 {
-     font-size: 20px;
+     font-size: 16px;
   }
   
   .kiji-border a {
-     font-size: 20px;
+     font-size: 18px;
   }
 
   .lesson {
