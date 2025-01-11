@@ -39,7 +39,12 @@ a {
 
 .fa-youtube {
     color: #ffffff;
-    font-size: 16px;
+    padding-right: 5px;
+}
+
+.fa-globe {
+    color: #ffffff;
+    padding-right: 5px;
 }
 
 .top-wrapper {
@@ -104,13 +109,13 @@ miru {
 }
 
 .btn {
-  padding: 6px 22px 5px;
+  padding: 6px 22px 6px;
   margin-left: 10px;
   margin-bottom: 10px;
   color: white;
   display: inline-block;
   opacity: 0.9;
-  border-radius: 13px;
+  border-radius: 10px;
   text-align: right;
 }
 
@@ -138,7 +143,10 @@ miru {
 }
 
 .logox {
-  width: 12px;
+  width: 14px;
+  text-align: center;
+  float: center;
+  padding-right: 2px;
 }
 
 .picture {
