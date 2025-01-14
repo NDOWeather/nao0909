@@ -562,7 +562,6 @@ footer {
     color: white;
     display: block;
     padding: 15px; /* 項目の周りに余白を追加 */
-    border-top: 0.5px solid white;
   }
 
   .drawer-list {
