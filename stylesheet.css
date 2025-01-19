@@ -37,6 +37,21 @@ a {
   width: 48%;
 }
 
+.text-content2 {
+  flex: 1;
+  display: inline-block;
+  text-align: left;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #323232;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48%;
+}
+
 .fa-youtube {
     color: #ffffff;
     padding-right: 5px;
@@ -143,10 +158,8 @@ miru {
 }
 
 .logox {
-  width: 14px;
-  text-align: center;
-  float: center;
-  padding-right: 2px;
+  width: 12px;
+  margin-right: 2px;
 }
 
 .picture {
@@ -230,7 +243,7 @@ header {
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .heading h1 {
@@ -269,8 +282,17 @@ header {
 .text-contents {
   width: 80%;
   display: inline-block;
+  text-align: left;
   font-size: 13px;
   margin-top: 15px;
+  margin-bottom: 15px;
+  color: #323232;
+}
+
+.text-contents2 {
+  width: 80%;
+  display: inline-block;
+  text-align: left;
   color: #323232;
 }
 
@@ -540,7 +562,7 @@ footer {
     height: 160px;
     position: fixed;
     top: 60px;
-    right: 100%; /* メニューを画面の外に飛ばす */
+    right: 100%; 
     z-index: 99;
     background-color: rgba(255,135,135,0.9);
     transition: .5s;
@@ -550,9 +572,9 @@ footer {
     font-size: 16px;
     color: white;
     display: block;
-    padding-top: 15px; /* 項目の周りに余白を追加 */
-    padding-bottom: 15px; /* 項目の周りに余白を追加 */
-    margin-right: 15px; /* 項目の周りに余白を追加 */
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    margin-right: 15px; 
     margin-left: 15px;
     border-top: 0.5px solid white;
   }
@@ -561,7 +583,7 @@ footer {
     font-size: 16px;
     color: white;
     display: block;
-    padding: 15px; /* 項目の周りに余白を追加 */
+    padding: 15px; 
   }
 
   .drawer-list {
@@ -571,7 +593,48 @@ footer {
   }
   
   #drawer-check:checked ~ .drawer-content {
-    right: 0; /* メニューを画面に入れる */
+    right: 0; 
+  }
+
+  .btn {
+    padding-left: 12px;
+    width: 95%;
+    text-alien: left;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .btn-wrapper {
+    display: block;
+    text-alien: left;
+    justify-content: left;
+  }
+
+  .site {
+    text-align: left;
+    background-color: #ff7373;
+    font-size: 14px;
+  }
+
+  .twitter {
+    text-align: left;
+    background-color: #DA1725;
+  }
+
+  .youtube {
+    text-align: left;
+    background-color: #000000;
+  }
+
+  .fa-globe {
+    color: #ffffff;
+    padding-left: 2px;
+    padding-right: 6px;
+  }
+
+  .logox {
+    margin-left: 3px;
+    margin-right: 0.5em;
   }
 
   .header-left a {
@@ -606,7 +669,7 @@ footer {
 
   .heading-border2 {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 35px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -703,6 +766,14 @@ footer {
 
   .content-wrapper img {
     margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .btn-wrapper2 {
+    text-align: right;
+    justify-content: right;
+    float: right;
+    padding-top: 10px;
     margin-bottom: 20px;
   }
 
