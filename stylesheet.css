@@ -153,8 +153,8 @@ miru {
 }   
 
 .logo {
-  width: 53px;
-  margin-top: 4px;
+  width: 54px;
+  margin-top: 3px;
 }
 
 .logox {
@@ -595,48 +595,7 @@ footer {
   #drawer-check:checked ~ .drawer-content {
     right: 0; 
   }
-
-  .btn {
-    padding-left: 12px;
-    width: 95%;
-    text-alien: left;
-    display: block;
-    border-radius: 10px;
-  }
-
-  .btn-wrapper {
-    display: block;
-    text-alien: left;
-    justify-content: left;
-  }
-
-  .site {
-    text-align: left;
-    background-color: #ff7373;
-    font-size: 14px;
-  }
-
-  .twitter {
-    text-align: left;
-    background-color: #DA1725;
-  }
-
-  .youtube {
-    text-align: left;
-    background-color: #000000;
-  }
-
-  .fa-globe {
-    color: #ffffff;
-    padding-left: 2px;
-    padding-right: 8px;
-  }
-
-  .logox {
-    margin-left: 3px;
-    margin-right: 0.5em;
-  }
-
+  
   .header-left a {
     line-height: 60px;
     padding-left: 10px;
@@ -789,5 +748,48 @@ footer {
   footer p {
     color: #6d6b6e;
     font-size: 14px;
+  }
+}
+
+@media all and (max-width: 580px) {
+  .btn {
+    padding-left: 12px;
+    width: 95%;
+    text-alien: left;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .btn-wrapper {
+    display: block;
+    text-alien: left;
+    justify-content: left;
+  }
+
+  .site {
+    text-align: left;
+    background-color: #ff7373;
+    font-size: 14px;
+  }
+
+  .twitter {
+    text-align: left;
+    background-color: #DA1725;
+  }
+
+  .youtube {
+    text-align: left;
+    background-color: #000000;
+  }
+
+  .fa-globe {
+    color: #ffffff;
+    padding-left: 2px;
+    padding-right: 8px;
+  }
+
+  .logox {
+    margin-left: 3px;
+    margin-right: 0.5em;
   }
 }
