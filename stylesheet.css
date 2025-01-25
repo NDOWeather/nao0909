@@ -785,7 +785,7 @@ footer {
   .fa-globe {
     color: #ffffff;
     padding-left: 2px;
-    padding-right: 8px;
+    padding-right: 0.5em;
   }
 
   .logox {
