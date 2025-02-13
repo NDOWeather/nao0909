@@ -105,7 +105,7 @@ a {
 .btn-wrapper3 {
   text-align: left;
   justify-content: left;
-  float: left;
+  float: center;
 }
 
 .btn-wrapper p {
@@ -123,6 +123,11 @@ a {
 .site {
   background-color: #ff7373;
   font-size: 14px;
+}
+
+.link {
+  background-color: #ff7373;
+  font-size: 17px;
 }
 
 miru {
@@ -772,7 +777,19 @@ footer {
     justify-content: left;
   }
 
+  .btn-wrapper3 {
+    display: block;
+    text-alien: left;
+    justify-content: left;
+  }
+
   .site {
+    text-align: left;
+    background-color: #ff7373;
+    font-size: 14px;
+  }
+
+  .link {
     text-align: left;
     background-color: #ff7373;
     font-size: 14px;
