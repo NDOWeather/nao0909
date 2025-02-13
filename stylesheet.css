@@ -102,6 +102,12 @@ a {
   float: right;
 }
 
+.btn-wrapper3 {
+  text-align: left;
+  justify-content: left;
+  float: left;
+}
+
 .btn-wrapper p {
   margin-bottom: 20px;
 }
