@@ -14,45 +14,6 @@ a {
   text-decoration: none;
 }
 
-.scroll-downs {
-  position: absolute;
-  top: 530px;
-  right: 0px;
-  bottom: 0px;
-  left: 1300px;
-  margin: auto;
-  
-  width :34px;
-  height: 55px;
-}
-
-.mousey {
-  width: 3px;
-  padding: 10px 15px;
-  height: 35px;
-  border: 2px solid #fff;
-  border-radius: 25px;
-  opacity: 0.75;
-  box-sizing: content-box;
-}
-
-.scroller {
-  width: 3px;
-  height: 10px;
-  border-radius: 25%;
-  background-color: #fff;
-  animation-name: scroll;
-  animation-duration: 2.2s;
-  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-  animation-iteration-count: infinite;
-}
-
-@keyframes scroll {
-  0% { opacity: 0; }
-  10% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(15px); opacity: 0;}
-}
-
 .container {
   width: 100%;
   padding: 0 10px;
@@ -288,12 +249,20 @@ header {
 }
 
 .heading-border2 {
-  font-size: 20px;
+  font-size: 19px;
+  color: black;
   line-height: 45px;
+  background-image: url(image/about.jpg);
+  background-position: center;
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  text-align: right;
+  position: relative;
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 70px;
 }
 
 .heading h1 {
@@ -679,6 +648,7 @@ footer {
   .heading-border2 {
     font-size: 16px;
     line-height: 35px;
+    text-align: left;
     padding-top: 20px;
     padding-bottom: 20px;
   }
