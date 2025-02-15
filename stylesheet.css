@@ -14,6 +14,45 @@ a {
   text-decoration: none;
 }
 
+.scroll-downs {
+  position: absolute;
+  top: 530px;
+  right: 0px;
+  bottom: 0px;
+  left: 1300px;
+  margin: auto;
+  
+  width :34px;
+  height: 55px;
+}
+
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
 .container {
   width: 100%;
   padding: 0 10px;
@@ -63,7 +102,7 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 330px 0;
+  padding: 180px 0 453px 0;
   background-image: url(top.jpg);
   background-size: cover;
   background-position: center top;
