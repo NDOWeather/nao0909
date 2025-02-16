@@ -57,13 +57,13 @@ span.about {
 }
 
 .fa-youtube {
-    color: #ffffff;
-    padding-right: 5px;
+  color: #ffffff;
+  padding-right: 5px;
 }
 
 .fa-globe {
-    color: #ffffff;
-    padding-right: 5px;
+  color: #ffffff;
+  padding-right: 5px;
 }
 
 .top-wrapper {
@@ -197,7 +197,7 @@ miru {
   float: left;
 }
 
-header {
+.header {
   height: 60px;
   width: 100%;
   background-color: rgba(255,115,115,0.9);
@@ -449,6 +449,10 @@ footer {
     font-size: 20px;
     padding: 8px;
     border: 2px solid #ff7373;
+  }
+
+  .heading-border2 {
+    font-size: 16px;
   }
 
   .top-wrapper h1 {
